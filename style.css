@@ -1,0 +1,386 @@
+.fa-tooth{
+	color:deeppink;
+	border-color: blue;
+}
+.navbar{
+	position: relative;
+}
+.navbar-inner{
+	background:transparent;
+}
+.navbar-brand a{
+	text-decoration: none;
+	list-style: none;
+}
+.navbar-nav li{
+	border: 10px solid transparent;
+	display: block;
+}
+.navbar-nav li:nth-child(7):hover{
+	border-bottom: 10px solid transparent;
+	transition: none !important;
+	transform: none !important;
+}
+.navbar-nav li:hover{
+	transform: translateY(-5px);
+	transition: 0.5s;
+	border-bottom: 10px solid black;
+	color: 
+}
+.btn.blue{
+	color: white;
+	font-weight: 600;
+}
+.btn.blue:hover{
+	color: white;
+}
+
+.imgcontainer img{
+	position: relative;
+	max-height: 300px;
+}
+
+.imgbox{
+	position: absolute;
+	bottom: -50px;
+	padding: 10px;
+	left: -30px;
+	width: 200px;
+	height: 200px;
+	background: white;
+	box-shadow: 0px 0px 10px 5px lightpink;
+	overflow: hidden;
+	font-size: 14px;
+}
+.imgbox h3 i{
+	height: 15px;
+	font-size: 14px;
+}
+.fa-star{
+	color: gold;
+	margin-right:2px;
+	object-fit: contain;
+	object-position: center;
+}
+
+
+
+
+
+.gap1{
+	margin: 15vh 0 5vh 0;
+}
+.boxes{
+	display: grid;
+	grid-template-columns: 0.5fr 1fr 1.5fr;
+	grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr;
+	grid-template-areas: "box1 box2 box3"
+						"box1 box2 box3"
+						"box1 box2 box3"
+						"box4 box4 box4";
+	height: 80vh;
+	grid-gap: 0.5rem;
+}
+
+.box1{
+	grid-area: box1;
+	display: flex;
+	flex-direction: column;
+	height: 40vh;
+	margin-top: 15vh;
+}
+.box1 .boxin1 h5{
+	margin-top: 10vh;
+	background: yellow;
+	height: 100px;
+	width: 100px;
+	margin-bottom: 3vh;
+	border-radius: 50%;
+}
+.box1 .boxin2 h5{
+	background: blue;
+	height: 100px;
+	width: 100px;
+	border-radius: 1px 50px 1px;
+}
+.box2{
+	grid-area: box2;
+	height: 80%;
+	margin-top: 11vh;
+}
+.box2 img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	object-position: center;
+		border-radius: 135px/135px;
+
+}
+.box3{
+	grid-area: box3;
+	background: url(Images/dentistbox3.jpg);
+	border-radius: 5px 100px 5px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	
+}
+.box4 {
+	grid-area: box4;
+	background-image: url(Images/dentistbox1.jpg);
+	height: 25vh;
+	border-radius:5px 125px 5px; 
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.upgap{
+	margin-top: 10vh;
+	justify-content: space-between;
+}
+.upgap .col-2{
+	width: 200px;
+	margin: auto;
+	text-align: center;
+}
+.bhov{
+	transition: 0.5s;
+	text-align: center;
+}
+
+.bigimg i{
+	font-size: 40px;
+	padding: 25px;
+	border-radius: 30px 0px 30px;
+	transition:1s;
+}
+.bhov:hover .bigimg i{
+	background: blue;
+	color:white;
+}
+.bigimg h6{
+	transition: 0.2s;
+}
+
+.bhov:hover .bigimg  h6{
+	font-weight: 800;
+	color: lightcyan;
+	text-shadow: 0px 0px 5px black;
+}
+.bigimg .btn{
+	opacity: 0;
+	transition: 0.5s;
+}
+.bhov:hover .bigimg .btn{
+	opacity: 1;
+	background: blue;
+	color: white;
+	font-weight: 500;
+}
+
+.pimg-cont  img{
+	height: 350px;
+	width: 100%;
+	object-fit: cover;
+	object-position: center;
+}
+
+.pimg:nth-child(odd) img{
+	border-radius: 55px 0 0 0;
+}
+.pimg:nth-child(even) img{
+	border-radius: 0 0 55px 0;
+}
+.pay{
+	transition: 0.4s;
+}
+
+
+.payC{
+	border: 1px solid black;
+	transition: 0.4s;
+}
+
+.payC ul{
+	text-align: left;
+	margin: 0px;
+	list-style: none;
+}
+.payP{
+	font-size: 14px;
+}
+.payC .rate{
+	background: linear-gradient(to bottom, white 60%, yellow 40%);
+	width: 50%;
+	transition: 0.1s;
+}
+.pay .btn {
+	color: blue;
+	font-weight: 500;
+	border-color: blue;
+	transition: 0.4s;
+}
+.pay:hover{
+	z-index: 3;
+}
+.payC:hover{
+	background: blue;
+	color: white;
+	border: 1px solid black;
+	transform: scale(1.1);
+}
+.pay:hover .rate{
+	background: none;
+}
+
+.pay:hover .btn {
+	color: white;
+	background: green;
+	border-color: greenyellow;
+}
+
+
+.rReview{
+	background-color: aquamarine;
+}
+
+.rCont{
+	font-size: 16px;
+}
+
+.rCont h3 i{
+	height: 10px;
+	font-size: 14px;
+	color: gold;
+}
+.rCol:nth-child(1) .rCont{
+	background: lightgreen;
+	height: 25vh;
+
+}
+.rCol:nth-child(2) .rCont{
+	background: lightcoral;
+}
+.rCol:nth-child(3) .rCont{
+	background: lightblue;
+	height: 30vh;
+}
+
+/*======= contact us ========*/
+.contRowcol-1{
+	margin-top:100px;
+}
+.threeBox{
+	display: grid;
+	grid-template-areas: "boxx1 boxx2"
+						"boxx3 boxx3";
+	grid-template-columns: 0.6fr 1.4fr;
+	grid-template-rows: 0.5fr 0.5fr;
+	grid-gap: 0.3rem;
+}
+.onebox{
+	grid-area: boxx1;
+}
+.onebox h3{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	background: yellow;
+}
+.twobox{
+	grid-area: boxx2;
+	height: 100%;
+	width: 100%;
+}
+.twobox img{
+	object-fit: cover;
+	object-position: center;
+	width: 100%;
+	height: 300px;
+	border-radius: 0px 135px;
+}
+.threebox{
+	grid-area: boxx3;
+	height: 300px;
+	width: 100%;
+}
+.threebox img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	object-position: center;
+	border-radius: 125px 0px;
+}
+.eContf{
+	background: lightblue;
+}
+/*=========== media quaries ===========*/
+
+@media(max-width: 1180px){
+	.imgbox{
+		display: none;
+	}
+	p{
+		font-size: 14px;
+	}
+}
+@media(max-width:990px){
+	.navbar-nav li:hover{
+	border: none;
+	transform: none !important;
+	transition: none !important;
+}
+	.navbrand{
+		padding: 0px;
+	}
+
+.imgcontainer{
+	display: none;
+
+}
+	
+	.imgbox{
+		display: none;
+	}
+	
+	.gap1 .container{
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.pay:nth-child(2){
+	border-right: none;
+	border-top: solid black;
+	border-bottom: solid black;
+	border-left:none;
+}
+}
+
+
+
+
+
+@media(max-width:575px){
+	.navbar-brand{
+		margin: 0px;
+		padding-left:5rem;
+	}
+	.makeapp{
+		
+	}
+	.navitem{
+		margin-bottom: 10px;
+	}
+	.imgcontainer{
+		display: none;
+		visibility: hidden;
+	}
+	.pay:nth-child(2){
+		margin: 10px 0px;
+	border: none;
+}
+	
+	.rCol{
+		margin: 10px 0px;
+	}
+}
